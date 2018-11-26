@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*Clearfix for #container*/
+#container::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+header {
+    width: 90%;
+    margin: 1em 5%;
+    padding: 0;
+    float: left;
+}
+
+nav {
+    width: 90%;
+    margin: 1em 5%;
+    padding: 0;
+    float: left;
+}
+
+main {
+    width: 90%; /*1080px out of 1200px*/
+    margin: 1em 5%;
+    padding: 0;
+    float: left;
+}
+
+@media all and (min-width: 400px) {
+    main {
+        column-count: 1;
+        column-width: auto;
+    }  
+}
+
+@media all and (min-width: 800px) {
+    main {
+        column-count: 2;
+        height: 1050px;
+        column-fill: auto;
+    }  
+}
+
+@media all and (min-width: 1200px) {
+    main {
+        column-count: 3;
+        height: 700px;
+        column-fill: balance;
+    }   
+}
+
+section {
+    width: 90%;
+    margin: 0 0 .5em 0;
+    padding: .5em 5%;
+    background: #fafafa;
+    float: left;
+}
+
+/*Fonts*/
+h1 {
+    font-size: 1.6em;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: .875em;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Span class*/
+.detail {
+    float: right;
+    color: #fff;
+    margin: 0;
+    padding: 0 .25em;
+}
+
+button {
+    font-size: .875em;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin: 0 .875em 0 0;
+    padding: 0;
+    border: none;
+    background: none;
+}
