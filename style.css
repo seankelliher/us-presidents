@@ -43,7 +43,7 @@ main {
     float: left;
 }
 
-@media all and (min-width: 400px) {
+@media all and (min-width: 300px) {
     main {
         column-count: 1;
         column-width: auto;
