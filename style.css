@@ -68,6 +68,13 @@ section {
     float: left;
 }
 
+/*Clearfix with pseudo-element*/
+section::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
 /*Fonts*/
 h1 {
     line-height: 1.5;
@@ -97,9 +104,16 @@ h1 {
 p {
     font-size: .875em;
     line-height: 1.5;
+}
+
+.president {
     font-family: 'Merriweather', serif;
+    font-weight: 400;
+    float: left;
+    color: #000;
     margin: 0;
     padding: 0;
+    display: inline-block;
 }
 
 /*Span class*/
@@ -110,6 +124,7 @@ p {
     color: #fff;
     margin: 0;
     padding: 0 .25em;
+    display: inline-block;
 }
 
 button {
