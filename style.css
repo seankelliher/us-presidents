@@ -109,22 +109,38 @@ p {
 .president {
     font-family: 'Merriweather', serif;
     font-weight: 400;
-    float: left;
     color: #000;
     /*margin: 0;
     padding: 0;*/
-    display: inline-block;
 }
 
 /*Span class*/
 .detail {
     font-family: 'Francois One', sans-serif;
     font-weight: 300;
-    float: right;
     color: #fff;
     /*margin: 0;*/
     padding: 0 .25em;
-    display: inline-block;
+}
+
+@media all and (min-width: 300px) {
+
+    .detail {
+        display: inline-block;
+    }
+}
+
+@media all and (min-width: 400px) {
+
+    .president {
+        float: left;
+        display: inline-block;
+    }
+
+    .detail {
+        float: right;
+        display: inline-block;
+    }
 }
 
 button {
