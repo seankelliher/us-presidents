@@ -59,7 +59,7 @@ main {
 @media all and (min-width: 1200px) {
     main {
         column-count: 3;
-        /*height: 700px;*/
+        height: 1095px;
         column-fill: balance;
     }   
 }
