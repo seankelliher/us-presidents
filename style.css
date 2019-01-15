@@ -73,11 +73,11 @@ section {
 }
 
 /*Clearfix with pseudo-element*/
-section::after {
+/*section::after {
     clear: both;
     content: "";
     display: table;
-}
+}*/
 
 /*Fonts*/
 h1 {
