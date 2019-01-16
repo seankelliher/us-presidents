@@ -42,7 +42,7 @@ material = {
         const buttonsArray = Array.from(buttons);
 
         buttonsArray.forEach(function (btn) {
-            btn.style.color = "#000";
+            btn.style.borderBottomColor = "transparent";
         }); //close "forEach" function
     },
 
@@ -50,7 +50,7 @@ material = {
     highlightNav: function (et) {
         "use strict";
 
-        et.style.color = "#42a5f5";
+        et.style.borderBottomColor = "#c7c7c7";
     },
 
     //Show birthplaces
