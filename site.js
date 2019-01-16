@@ -538,7 +538,7 @@ material = {
         govenor.forEach(function (gvnr, index) {
             const gatherI = document.getElementById(gvnr);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#005cb2"; //blue 600 dark
+            gatherC.style.background = "#00766c"; //teal 400 dark
             gatherC.textContent = govenorDetail[index];
         });
 
@@ -672,7 +672,7 @@ material = {
         fiveToSeven.forEach(function (fts, index) {
             const gatherI = document.getElementById(fts);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#005cb2"; //blue 600 dark
+            gatherC.style.background = "#00766c"; //teal 400 dark
             gatherC.textContent = fiveToSevenDetail[index];
         });
 
