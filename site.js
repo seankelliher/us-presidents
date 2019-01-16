@@ -82,7 +82,7 @@ material = {
         northeast.forEach(function (noeast, index) {
             const gatherI = document.getElementById(noeast);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#42a5f5"; //blue 400
+            gatherC.style.background = "#0077c2"; //blue 400 dark
             gatherC.textContent = northeastDetail[index];
         });
 
@@ -109,7 +109,7 @@ material = {
         southeast.forEach(function (soeast, index) {
             const gatherI = document.getElementById(soeast);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#66bb6a"; //green 400
+            gatherC.style.background = "#087f23"; //green 500 dark
             gatherC.textContent = southeastDetail[index];
         });
 
@@ -133,7 +133,7 @@ material = {
         midwest.forEach(function (mwest, index) {
             const gatherI = document.getElementById(mwest);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#bdbdbd"; //gray 400
+            gatherC.style.background = "#707070"; //gray 500 dark
             gatherC.textContent = midwestDetail[index];
         });
 
@@ -148,7 +148,7 @@ material = {
         southwest.forEach(function (sowest, index) {
             const gatherI = document.getElementById(sowest);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#ffca28"; //amber 400
+            gatherC.style.background = "#c43e00"; //amber 900 dark
             gatherC.textContent = southwestDetail[index];
         });
 
@@ -163,7 +163,7 @@ material = {
         west.forEach(function (wst, index) {
             const gatherI = document.getElementById(wst);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#ef5350"; //red 400
+            gatherC.style.background = "#b61827"; //red 400 dark
             gatherC.textContent = westDetail[index];
         });
     },
@@ -182,7 +182,7 @@ material = {
         whig.forEach(function (whg) {
             const gatherI = document.getElementById(whg);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#bdbdbd"; //gray 400
+            gatherC.style.background = "#707070"; //gray 500 dark
             gatherC.textContent = "Whig";
         });
 
@@ -208,7 +208,7 @@ material = {
         democratic.forEach(function (dem) {
             const gatherI = document.getElementById(dem);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#42a5f5"; //blue 400
+            gatherC.style.background = "#0077c2"; //blue 400 dark
             gatherC.textContent = "Democratic";
         });
 
@@ -237,7 +237,7 @@ material = {
         republican.forEach(function (rep) {
             const gatherI = document.getElementById(rep);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#ef5350"; //red 400
+            gatherC.style.background = "#b61827"; //red 400 dark
             gatherC.textContent = "Republican";
         });
 
@@ -251,7 +251,7 @@ material = {
         democraticRepublican.forEach(function (demrep) {
             const gatherI = document.getElementById(demrep);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#66bb6a"; //green 400
+            gatherC.style.background = "#087f23"; //green 500 dark
             gatherC.textContent = "Democratic-Republican";
         });
 
@@ -260,7 +260,7 @@ material = {
         federalist.forEach(function (fed) {
             const gatherI = document.getElementById(fed);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#ffca28"; //amber 400
+            gatherC.style.background = "#c43e00"; //amber 900 dark
             gatherC.textContent = "Federalist";
         });
 
@@ -269,7 +269,7 @@ material = {
         unaffiliated.forEach(function (unaf) {
             const gatherI = document.getElementById(unaf);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#78909c"; //blue gray 400
+            gatherC.style.background = "#4b636e"; //blue gray 400 dark
             gatherC.textContent = "Unaffiliated";
         });
     },
@@ -296,7 +296,7 @@ material = {
         forty.forEach(function (foty, index) {
             const gatherI = document.getElementById(foty);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#bdbdbd"; //gray 400
+            gatherC.style.background = "#707070"; //gray 500 dark
             gatherC.textContent = fortyDetail[index];
         });
 
@@ -334,7 +334,7 @@ material = {
         fifty.forEach(function (fity, index) {
             const gatherI = document.getElementById(fity);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#42a5f5"; //blue 400
+            gatherC.style.background = "#087f23"; //green 500 dark"
             gatherC.textContent = fiftyDetail[index];
         });
 
@@ -357,7 +357,7 @@ material = {
         sixty.forEach(function (sity, index) {
             const gatherI = document.getElementById(sity);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#0077c2"; //blue (dark) 400
+            gatherC.style.background = "#0077c2"; //blue 400 dark
             gatherC.textContent = sixtyDetail[index];
         });
 
@@ -382,7 +382,7 @@ material = {
         neverMarried.forEach(function (nmar) {
             const gatherI = document.getElementById(nmar);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#ef5350"; //red 400
+            gatherC.style.background = "#b61827"; //red 400 dark
             gatherC.textContent = "Never married";
         });
 
@@ -396,7 +396,7 @@ material = {
         widower.forEach(function (widr) {
             const gatherI = document.getElementById(widr);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#bdbdbd"; //gray 400
+            gatherC.style.background = "#707070"; //gray 500 dark
             gatherC.textContent = "Widower";
         });
 
@@ -446,7 +446,7 @@ material = {
         married.forEach(function (marr) {
             const gatherI = document.getElementById(marr);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#42a5f5"; //blue 400
+            gatherC.style.background = "#0077c2"; //blue 400 dark
             gatherC.textContent = "Married";
         });
     },
@@ -462,7 +462,7 @@ material = {
         business.forEach(function (bsn, index) {
             const gatherI = document.getElementById(bsn);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#ef5350"; //red 40
+            gatherC.style.background = "#b61827"; //red 400 dark
             gatherC.textContent = businessDetail[index];
         });
 
@@ -480,7 +480,7 @@ material = {
         cabinet.forEach(function (cabn, index) {
             const gatherI = document.getElementById(cabn);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#66bb6a"; //green 400
+            gatherC.style.background = "#087f23"; //green 500 dark
             gatherC.textContent = cabinetDetail[index];
         });
 
@@ -500,7 +500,7 @@ material = {
         congress.forEach(function (cngr, index) {
             const gatherI = document.getElementById(cngr);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#42a5f5"; //blue 400
+            gatherC.style.background = "#0077c2"; //blue 400 dark
             gatherC.textContent = congressDetail[index];
         });
 
@@ -515,7 +515,7 @@ material = {
         diplomatic.forEach(function (dplo, index) {
             const gatherI = document.getElementById(dplo);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#ffca28"; //amber 400
+            gatherC.style.background = "#c43e00"; //amber 900 dark
             gatherC.textContent = diplomaticDetail[index];
         });
 
@@ -538,7 +538,7 @@ material = {
         govenor.forEach(function (gvnr, index) {
             const gatherI = document.getElementById(gvnr);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#0077c2"; //blue (dark) 400
+            gatherC.style.background = "#005cb2"; //blue 600 dark
             gatherC.textContent = govenorDetail[index];
         });
 
@@ -584,7 +584,7 @@ material = {
         presidency.forEach(function (psdn, index) {
             const gatherI = document.getElementById(psdn);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#bdbdbd"; //gray 400
+            gatherC.style.background = "#707070"; //gray 500 dark
             gatherC.textContent = presidencyDetail[index];
         });
     },
@@ -604,7 +604,7 @@ material = {
         lessThanOne.forEach(function (ltone, index) {
             const gatherI = document.getElementById(ltone);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#bdbdbd"; //gray 400
+            gatherC.style.background = "#707070"; //gray 500 dark
             gatherC.textContent = lessThanOneDetail[index];
         });
 
@@ -625,7 +625,7 @@ material = {
         oneToThree.forEach(function (ott, index) {
             const gatherI = document.getElementById(ott);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#8d8d8d"; //gray (dark 400)
+            gatherC.style.background = "#373737"; //gray 700 dark
             gatherC.textContent = oneToThreeDetail[index];
         });
 
@@ -654,7 +654,7 @@ material = {
         four.forEach(function (fr, index) {
             const gatherI = document.getElementById(fr);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#42a5f5"; //blue 400
+            gatherC.style.background = "#0077c2"; //blue 400 dark
             gatherC.textContent = fourDetail[index];
         });
 
@@ -672,7 +672,7 @@ material = {
         fiveToSeven.forEach(function (fts, index) {
             const gatherI = document.getElementById(fts);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#0077c2"; //blue (dark) 400
+            gatherC.style.background = "#005cb2"; //blue 600 dark
             gatherC.textContent = fiveToSevenDetail[index];
         });
 
@@ -697,7 +697,7 @@ material = {
         eight.forEach(function (eig, index) {
             const gatherI = document.getElementById(eig);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#ffca28"; //amber 400
+            gatherC.style.background = "#c43e00"; //amber 900 dark
             gatherC.textContent = eightDetail[index];
         });
 
@@ -709,7 +709,7 @@ material = {
         moreThanEight.forEach(function (mte, index) {
             const gatherI = document.getElementById(mte);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#ef5350"; //red 400
+            gatherC.style.background = "#b61827"; //red 400 dark
             gatherC.textContent = moreThanEightDetail[index];
         });
 
@@ -718,7 +718,7 @@ material = {
         present.forEach(function (prtn) {
             const gatherI = document.getElementById(prtn);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#be9c91"; //brown (light) 400
+            gatherC.style.background = "#8d6e63"; //brown 400
             gatherC.textContent = "present";
         });
     },
@@ -747,7 +747,7 @@ material = {
         retired.forEach(function (rtr) {
             const gatherI = document.getElementById(rtr);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#42a5f5"; //blue 400
+            gatherC.style.background = "#0077c2"; //blue 400 dark
             gatherC.textContent = "Retired";
         });
 
@@ -768,7 +768,7 @@ material = {
         lost.forEach(function (lst) {
             const gatherI = document.getElementById(lst);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#8d8d8d"; //gray (dark 400)
+            gatherC.style.background = "#373737"; //gray 700 dark
             gatherC.textContent = "Lost election";
         });
 
@@ -804,7 +804,7 @@ material = {
         notNominated.forEach(function (nonom) {
             const gatherI = document.getElementById(nonom);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#bdbdbd"; //gray 400
+            gatherC.style.background = "#707070"; //gray 500 dark
             gatherC.textContent = "Lost nomination";
         });
 
@@ -819,7 +819,7 @@ material = {
         termLimit.forEach(function (tlim) {
             const gatherI = document.getElementById(tlim);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#66bb6a"; //green 400
+            gatherC.style.background = "#087f23"; //green 500 dark
             gatherC.textContent = "Term limited";
         });
 
@@ -828,7 +828,7 @@ material = {
         resigned.forEach(function (rsgn) {
             const gatherI = document.getElementById(rsgn);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#ef5350"; //red 400
+            gatherC.style.background = "#b61827"; //red 400 dark
             gatherC.textContent = "Resigned";
         });
 
@@ -837,7 +837,7 @@ material = {
         notApplicable.forEach(function (ntap) {
             const gatherI = document.getElementById(ntap);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#be9c91"; //brown (light) 400
+            gatherC.style.background = "#8d6e63"; //brown 400
             gatherC.textContent = "n/a";
         });
     }
