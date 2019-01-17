@@ -6,26 +6,43 @@ let material;
 window.addEventListener("load", function () {
     "use strict";
 
+    //On page load...birthplace-btn is highlighted through css
+
+    //Invoke showBirthplace function
+    material.showBirthplace();
+
+    //Set event listener on nav. User click invokes related functions.
     document.querySelector("nav").addEventListener("click", function (element) {
 
         if (element.target.id === "btn-birthplace") {
             material.showBirthplace();
+            material.resetNav();
+            material.highlightNav(element.target);
         } else if (element.target.id === "btn-party") {
             material.showParty();
+            material.resetNav();
+            material.highlightNav(element.target);
         } else if (element.target.id === "btn-age") {
             material.showAge();
+            material.resetNav();
+            material.highlightNav(element.target);
         } else if (element.target.id === "btn-marriage") {
             material.showMarriage();
+            material.resetNav();
+            material.highlightNav(element.target);
         } else if (element.target.id === "btn-experience") {
             material.showExperience();
+            material.resetNav();
+            material.highlightNav(element.target);
         } else if (element.target.id === "btn-term") {
             material.showTerm();
+            material.resetNav();
+            material.highlightNav(element.target);
         } else if (element.target.id === "btn-departure") {
             material.showDeparture();
+            material.resetNav();
+            material.highlightNav(element.target);
         }
-
-        material.resetNav();
-        material.highlightNav(element.target);
 
     }); //Close event listener
 
