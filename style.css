@@ -12,13 +12,13 @@ img {
 
 header {
     width: 90%;
-    margin: 1em 5%;
+    margin: 2em 5% 1em 5%;
     padding: 0;
 }
 
 nav {
     width: 90%;
-    margin: 1em 5%;
+    margin: 1em 5% 2em 5%;
     padding: 0;
     display: flex;
     justify-content: start;
