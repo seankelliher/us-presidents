@@ -33,11 +33,11 @@ main {
 
 /*Clearfix with pseudo-element*/
 /*In theory this is needed. In practice, it doesn't seem necessary.*/
-main::after {
+/*main::after {
     clear: both;
     content: "";
     display: table;
-}
+}*/
 
 @media all and (min-width: 300px) {
     main {
@@ -122,11 +122,11 @@ p {
 
     /*Clearfix with pseudo-element*/
     /*In theory this is needed. In practice, it doesn't seem necessary.*/
-    section::after {
+    /*section::after {
         clear: both;
         content: "";
         display: table;
-    }
+    }*/
 
     .president {
         float: left;
