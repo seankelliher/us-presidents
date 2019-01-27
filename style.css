@@ -18,7 +18,7 @@ header {
 
 nav {
     width: 90%;
-    margin: 1em 5% 2em 5%;
+    margin: 1em 5%;
     padding: 0;
     display: flex;
     justify-content: start;
@@ -27,26 +27,8 @@ nav {
 
 main {
     width: 90%; /*1080px out of 1200px*/
+    margin: 1.5em 5%;
     padding: 0;
-}
-
-/*Varied top margins are to create equal space between header, nav, and main.*/
-@media all and (min-width: 300px) {
-    main {
-        margin: 1.39375em 5% 1em 5%;
-    }
-}
-
-@media all and (min-width: 400px) {
-    main {
-        margin: 1.44375em 5% 1em 5%;
-    }
-}
-
-@media all and (min-width: 600px) {
-    main {
-        margin: 1.49375em 5% 1em 5%;
-    }
 }
 
 /*Clearfix with pseudo-element*/
