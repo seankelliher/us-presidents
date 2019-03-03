@@ -12,36 +12,36 @@ window.addEventListener("load", function () {
     material.showBirthplace();
 
     //Set event listener on nav. User click invokes related functions.
-    document.querySelector("nav").addEventListener("click", function (element) {
+    document.querySelector("nav").addEventListener("click", function (event) {
 
-        if (element.target.id === "btn-birthplace") {
+        if (event.target.id === "btn-birthplace") {
             material.showBirthplace();
             material.resetNav();
-            material.highlightNav(element.target);
-        } else if (element.target.id === "btn-party") {
+            material.highlightNav(event.target);
+        } else if (event.target.id === "btn-party") {
             material.showParty();
             material.resetNav();
-            material.highlightNav(element.target);
-        } else if (element.target.id === "btn-age") {
+            material.highlightNav(event.target);
+        } else if (event.target.id === "btn-age") {
             material.showAge();
             material.resetNav();
-            material.highlightNav(element.target);
-        } else if (element.target.id === "btn-marriage") {
+            material.highlightNav(event.target);
+        } else if (event.target.id === "btn-marriage") {
             material.showMarriage();
             material.resetNav();
-            material.highlightNav(element.target);
-        } else if (element.target.id === "btn-experience") {
+            material.highlightNav(event.target);
+        } else if (event.target.id === "btn-experience") {
             material.showExperience();
             material.resetNav();
-            material.highlightNav(element.target);
-        } else if (element.target.id === "btn-term") {
+            material.highlightNav(event.target);
+        } else if (event.target.id === "btn-term") {
             material.showTerm();
             material.resetNav();
-            material.highlightNav(element.target);
-        } else if (element.target.id === "btn-departure") {
+            material.highlightNav(event.target);
+        } else if (event.target.id === "btn-departure") {
             material.showDeparture();
             material.resetNav();
-            material.highlightNav(element.target);
+            material.highlightNav(event.target);
         }
 
     }); //Close event listener
