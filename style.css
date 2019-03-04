@@ -52,7 +52,7 @@ main {
 @media all and (min-width: 1200px) {
     main {
         column-count: 3;
-        height: initial; /*1095px;*/
+        height: 1110px;
         column-fill: balance;
     }   
 }
