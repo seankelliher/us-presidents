@@ -134,12 +134,35 @@ p {
 }
 
 button {
-    font-size: .875em;
     line-height: 1.5;
     font-family: 'Merriweather', serif;
     font-weight: 600;
     border: 2px solid transparent;
     background: none;
+}
+
+@media all and (min-width: 300px) {
+    button {
+        font-size: .625em;
+    }
+}
+
+@media all and (min-width: 400px) {
+    button {
+        font-size: .675em;
+    }
+}
+
+@media all and (min-width: 600px) {
+    button {
+        font-size: .75em;
+    }
+}
+
+@media all and (min-width: 700px) {
+    button {
+        font-size: .875em;
+    }
 }
 
 button:hover {
