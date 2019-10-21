@@ -26,14 +26,6 @@ main {
     padding: 0;
 }
 
-/*Clearfix with pseudo-element*/
-/*In theory this is needed. In practice, it doesn't seem necessary.*/
-/*main::after {
-    clear: both;
-    content: "";
-    display: table;
-}*/
-
 @media all and (min-width: 300px) {
     main {
         column-count: 1;
@@ -130,14 +122,6 @@ p {
 }
 
 @media all and (min-width: 400px) {
-
-    /*Clearfix with pseudo-element*/
-    /*In theory this is needed. In practice, it doesn't seem necessary.*/
-    /*section::after {
-        clear: both;
-        content: "";
-        display: table;
-    }*/
 
     .president {
         float: left;
