@@ -36,7 +36,7 @@ main {
 @media all and (min-width: 800px) {
     main {
         column-count: 2;
-        height: 1702px;
+        height: 1794px;
         column-fill: auto;
     }  
 }
@@ -44,7 +44,7 @@ main {
 @media all and (min-width: 1200px) {
     main {
         column-count: 3;
-        height: 1110px;
+        height: 1170px;
         column-fill: balance;
     }   
 }
