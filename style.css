@@ -111,7 +111,7 @@ p {
 .detail {
     font-family: 'Francois One', sans-serif;
     font-weight: 300;
-    padding: 0 .25em;
+    padding: 0 .5em;
 }
 
 @media all and (min-width: 300px) {
