@@ -59,7 +59,7 @@ material = {
         const buttonsArray = Array.from(buttons);
 
         buttonsArray.forEach(function (btn) {
-            btn.style.borderBottomColor = "transparent";
+            btn.style.background = "transparent";
         }); //close "forEach" function
     },
 
