@@ -99,7 +99,7 @@ material = {
         northeast.forEach(function (noeast, index) {
             const gatherI = document.getElementById(noeast);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#e0e0e0"; //grey 300
+            gatherC.style.background = "#f5f5f5"; //grey 100
             gatherC.textContent = northeastDetail[index];
         });
 
@@ -150,7 +150,7 @@ material = {
         midwest.forEach(function (mwest, index) {
             const gatherI = document.getElementById(mwest);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#8aacc8"; //blue 100 dark
+            gatherC.style.background = "#cfd8dc"; //blue grey 100
             gatherC.textContent = midwestDetail[index];
         });
 
@@ -165,7 +165,7 @@ material = {
         southwest.forEach(function (sowest, index) {
             const gatherI = document.getElementById(sowest);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#f0f4c3"; //lime 100
+            gatherC.style.background = "#ffecb3"; //amber 100
             gatherC.textContent = southwestDetail[index];
         });
 
@@ -180,7 +180,7 @@ material = {
         west.forEach(function (wst, index) {
             const gatherI = document.getElementById(wst);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#bdc192"; //lime 100 dark
+            gatherC.style.background = "#c8e6c9"; //green 100
             gatherC.textContent = westDetail[index];
         });
     },
@@ -199,7 +199,7 @@ material = {
         whig.forEach(function (whg) {
             const gatherI = document.getElementById(whg);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#e0e0e0"; //grey 300
+            gatherC.style.background = "#f5f5f5"; //grey 100
             gatherC.textContent = "Whig";
         });
 
@@ -254,7 +254,7 @@ material = {
         republican.forEach(function (rep) {
             const gatherI = document.getElementById(rep);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#f0f4c3"; //lime 100
+            gatherC.style.background = "#ffecb3"; //amber 100
             gatherC.textContent = "Republican";
         });
 
@@ -268,7 +268,7 @@ material = {
         democraticRepublican.forEach(function (demrep) {
             const gatherI = document.getElementById(demrep);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#8aacc8"; //blue 100 dark
+            gatherC.style.background = "#cfd8dc"; //blue grey 100
             gatherC.textContent = "Democratic-Republican";
         });
 
@@ -277,7 +277,7 @@ material = {
         federalist.forEach(function (fed) {
             const gatherI = document.getElementById(fed);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#bdc192"; //lime 100 dark
+            gatherC.style.background = "#c8e6c9"; //green 100
             gatherC.textContent = "Federalist";
         });
 
@@ -313,7 +313,7 @@ material = {
         forty.forEach(function (foty, index) {
             const gatherI = document.getElementById(foty);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#e0e0e0"; //grey 300
+            gatherC.style.background = "#f5f5f5"; //grey 100
             gatherC.textContent = fortyDetail[index];
         });
 
@@ -351,7 +351,7 @@ material = {
         fifty.forEach(function (fity, index) {
             const gatherI = document.getElementById(fity);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#bbdefb"; //blue 100"
+            gatherC.style.background = "#bbdefb"; //blue 100
             gatherC.textContent = fiftyDetail[index];
         });
 
@@ -374,7 +374,7 @@ material = {
         sixty.forEach(function (sity, index) {
             const gatherI = document.getElementById(sity);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#f0f4c3"; //lime 100
+            gatherC.style.background = "#ffecb3"; //amber 100
             gatherC.textContent = sixtyDetail[index];
         });
 
@@ -413,7 +413,7 @@ material = {
         widower.forEach(function (widr) {
             const gatherI = document.getElementById(widr);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#e0e0e0"; //grey 300
+            gatherC.style.background = "#f5f5f5"; //grey 100
             gatherC.textContent = "Widower";
         });
 
@@ -497,7 +497,7 @@ material = {
         cabinet.forEach(function (cabn, index) {
             const gatherI = document.getElementById(cabn);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#e0e0e0"; //grey 300
+            gatherC.style.background = "#f5f5f5"; //grey 100
             gatherC.textContent = cabinetDetail[index];
         });
 
@@ -532,7 +532,7 @@ material = {
         diplomatic.forEach(function (dplo, index) {
             const gatherI = document.getElementById(dplo);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#8aacc8"; //blue 100 dark
+            gatherC.style.background = "#cfd8dc"; //blue grey 100
             gatherC.textContent = diplomaticDetail[index];
         });
 
@@ -555,7 +555,7 @@ material = {
         govenor.forEach(function (gvnr, index) {
             const gatherI = document.getElementById(gvnr);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#f0f4c3"; //lime 100
+            gatherC.style.background = "#ffecb3"; //amber 100
             gatherC.textContent = govenorDetail[index];
         });
 
@@ -573,7 +573,7 @@ material = {
         military.forEach(function (mlty, index) {
             const gatherI = document.getElementById(mlty);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#bdc192"; //lime 100 dark
+            gatherC.style.background = "#c8e6c9"; //green 100
             gatherC.textContent = militaryDetail[index];
         });
 
@@ -601,7 +601,7 @@ material = {
         presidency.forEach(function (psdn, index) {
             const gatherI = document.getElementById(psdn);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#90caf9"; //blue 200
+            gatherC.style.background = "#8aacc8"; //blue 100 dark
             gatherC.textContent = presidencyDetail[index];
         });
     },
@@ -621,7 +621,7 @@ material = {
         lessThanOne.forEach(function (ltone, index) {
             const gatherI = document.getElementById(ltone);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#e0e0e0"; //grey 300
+            gatherC.style.background = "#f5f5f5"; //grey 100
             gatherC.textContent = lessThanOneDetail[index];
         });
 
@@ -671,7 +671,7 @@ material = {
         four.forEach(function (fr, index) {
             const gatherI = document.getElementById(fr);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#8aacc8"; //blue 100 dark
+            gatherC.style.background = "#cfd8dc"; //blue grey 100
             gatherC.textContent = fourDetail[index];
         });
 
@@ -689,7 +689,7 @@ material = {
         fiveToSeven.forEach(function (fts, index) {
             const gatherI = document.getElementById(fts);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#f0f4c3"; //lime 100
+            gatherC.style.background = "#ffecb3"; //amber 100
             gatherC.textContent = fiveToSevenDetail[index];
         });
 
@@ -714,7 +714,7 @@ material = {
         eight.forEach(function (eig, index) {
             const gatherI = document.getElementById(eig);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#bdc192"; //lime 100 dark
+            gatherC.style.background = "#c8e6c9"; //green 100
             gatherC.textContent = eightDetail[index];
         });
 
@@ -764,7 +764,7 @@ material = {
         retired.forEach(function (rtr) {
             const gatherI = document.getElementById(rtr);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#8aacc8"; //blue 100 dark
+            gatherC.style.background = "#cfd8dc"; //blue grey 100
             gatherC.textContent = "Retired";
         });
 
@@ -785,7 +785,7 @@ material = {
         lost.forEach(function (lst) {
             const gatherI = document.getElementById(lst);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#bdc192"; //lime 100 dark
+            gatherC.style.background = "#c8e6c9"; //green 100
             gatherC.textContent = "Lost election";
         });
 
@@ -806,7 +806,7 @@ material = {
         died.forEach(function (did, index) {
             const gatherI = document.getElementById(did);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#e0e0e0"; //grey 300"
+            gatherC.style.background = "#f5f5f5"; //grey 100
             gatherC.textContent = diedDetail[index];
         });
 
@@ -821,7 +821,7 @@ material = {
         notNominated.forEach(function (nonom) {
             const gatherI = document.getElementById(nonom);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#f0f4c3"; //lime 100
+            gatherC.style.background = "#ffecb3"; //amber 100
             gatherC.textContent = "Lost nomination";
         });
 
@@ -836,7 +836,7 @@ material = {
         termLimit.forEach(function (tlim) {
             const gatherI = document.getElementById(tlim);
             const gatherC = gatherI.getElementsByClassName("detail")[0];
-            gatherC.style.background = "#bbdefb"; //blue 100"
+            gatherC.style.background = "#bbdefb"; //blue 100
             gatherC.textContent = "Term limited";
         });
 
