@@ -1,17 +1,17 @@
-//Global variable (actually let)
+//Global variable (actually let).
 let material;
 
 //Monitor page, after it loads invoke function.
-//Stylesheet needed so window/load" over document/DOMContentLoaded is safer
+//Stylesheet needed so window/load" over document/DOMContentLoaded is safer.
 window.addEventListener("load", function () {
     "use strict";
 
-    //On page load...birthplace-btn is highlighted through css
+    //On page load...birthplace-btn is highlighted through css.
 
-    //Invoke showBirthplace function
+    //Invoke showBirthplace function.
     material.showBirthplace();
 
-    //Set event listener on nav. User click invokes related functions.
+    //Set event listener on nav. User click invokes dependent functions.
     document.querySelector("nav").addEventListener("click", function (event) {
 
         if (event.target.id === "btn-birthplace") {
@@ -44,14 +44,14 @@ window.addEventListener("load", function () {
             material.highlightNav(event.target);
         }
 
-    }); //Close event listener
+    }); //Close event listener.
 
-}); //Close "load" function
+}); //Close "load" function.
 
-//The material variable (let)
+//The material variable (let).
 material = {
 
-    //Reset all buttons to default color
+    //Reset all buttons to default color.
     resetNav: function () {
         "use strict";
 
@@ -60,17 +60,17 @@ material = {
 
         buttonsArray.forEach(function (btn) {
             btn.style.background = "transparent";
-        }); //close "forEach" function
+        }); //close "forEach" function.
     },
 
-    //Highlight clicked button
+    //Highlight clicked button.
     highlightNav: function (et) {
         "use strict";
 
         et.style.background = "#e3f2fd"; //blue 50
     },
 
-    //Show birthplaces
+    //Show birthplaces.
     showBirthplace: function () {
         "use strict";
 
@@ -185,7 +185,7 @@ material = {
         });
     },
 
-    //Show political party
+    //Show political party.
     showParty: function () {
         "use strict";
 
@@ -291,7 +291,7 @@ material = {
         });
     },
 
-    //Show age when taking office
+    //Show age when taking office.
     showAge: function () {
         "use strict";
 
@@ -390,7 +390,7 @@ material = {
         });
     },
 
-    //Show marital status when taking office
+    //Show marital status when taking office.
     showMarriage: function () {
         "use strict";
 
@@ -468,7 +468,7 @@ material = {
         });
     },
 
-    //Show experience (previous job) when taking office
+    //Show experience (previous job) when taking office.
     showExperience: function () {
         "use strict";
 
@@ -606,7 +606,7 @@ material = {
         });
     },
 
-    //Show length of time in office
+    //Show length of time in office.
     showTerm: function () {
         "use strict";
 
@@ -740,7 +740,7 @@ material = {
         });
     },
 
-    //Show reason for leaving office
+    //Show reason for leaving office.
     showDeparture: function () {
         "use strict";
 
