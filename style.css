@@ -172,7 +172,7 @@ button:hover {
     cursor: pointer;
 }
 
-/*Bottom border for birthplace button. When page loads, button is highlighted*/
+/*Button for "birthplace." When page loads, button is highlighted.*/
 #btn-birthplace {
-    border-bottom-color: #bbdefb;
+    background: #e3f2fd; /*blue 50*/
 }
