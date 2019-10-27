@@ -135,10 +135,12 @@ p {
 }
 
 button {
-    line-height: 1.5;
+    margin: 0 .25em 0 0;
+    padding: 0 .5em;
+    line-height: 2;
     font-family: 'Merriweather', serif;
     font-weight: 600;
-    border: 2px solid transparent;
+    border: none;
     background: none;
 }
 
