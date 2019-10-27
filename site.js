@@ -67,7 +67,7 @@ material = {
     highlightNav: function (et) {
         "use strict";
 
-        et.style.borderBottomColor = "#bbdefb";
+        et.style.background = "#e3f2fd"; //blue 50
     },
 
     //Show birthplaces
