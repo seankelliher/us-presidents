@@ -1,4 +1,4 @@
-# US Presidents
+# US Presidents - 1.0
 
 Interactive graphic that displays the birthplace, political party, age, marital status, previous work experience, length of term, and reason for departure for the 45 presidents of the United States. Results are individual (for each president). But color coding also reveals common traits among all presidents. For example, all presidents born in New England States are highlighted in gray, or all presidents who assumed office in their fifties are highlighted in blue.
 
