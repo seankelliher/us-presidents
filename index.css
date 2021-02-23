@@ -1,0 +1,179 @@
+#container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    width: 90%;
+    margin: 2em 5% 1em 5%;
+    padding: 0;
+}
+
+nav {
+    width: 90%;
+    margin: 1em 5%;
+    padding: 0;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+main {
+    width: 90%; /*1080px out of 1200px*/
+    margin: 1.5em 5%;
+    padding: 0;
+}
+
+@media all and (min-width: 300px) {
+    main {
+        column-count: 1;
+        column-width: auto;
+    }  
+}
+
+@media all and (min-width: 800px) {
+    main {
+        column-count: 2;
+        height: 1794px;
+        column-fill: auto;
+    }  
+}
+
+@media all and (min-width: 1200px) {
+    main {
+        column-count: 3;
+        height: 1170px;
+        column-fill: balance;
+    }   
+}
+
+section {
+    width: 90%;
+    margin: 0 0 .5em 0;
+    padding: .5em 5%;
+    border-bottom: 1px solid #f5f5f5; /*grey 100*/
+    float: left;
+}
+
+/*Fonts*/
+h1 {
+    font-family: 'Francois One', sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+@media all and (min-width: 300px) {
+    h1 {
+        font-size: 1.2em;
+    }
+}
+
+@media all and (min-width: 400px) {
+    h1 {
+        font-size: 1.4em;
+    }
+}
+
+@media all and (min-width: 600px) {
+    h1 {
+        font-size: 1.6em;
+    }
+}
+
+p {
+    line-height: 1.8;
+}
+
+@media all and (min-width: 300px) {
+    p {
+        font-size: .75em;
+    }
+}
+
+@media all and (min-width: 400px) {
+    p {
+        font-size: .825em;
+    }
+}
+
+@media all and (min-width: 600px) {
+    p {
+        font-size: .875em;
+    }
+}
+
+.president {
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+}
+
+.detail {
+    font-family: 'Francois One', sans-serif;
+    font-weight: 400;
+    padding: 0 .5em;
+}
+
+@media all and (min-width: 300px) {
+
+    .detail {
+        display: inline-block;
+    }
+}
+
+@media all and (min-width: 400px) {
+
+    .president {
+        float: left;
+        display: inline-block;
+    }
+
+    .detail {
+        float: right;
+        display: inline-block;
+    }
+}
+
+button {
+    margin: 0 .25em 0 0;
+    padding: 0 .5em;
+    font-family: 'Merriweather', serif;
+    line-height: 2;
+    font-weight: 400;
+    border: none;
+    background: none;
+}
+
+@media all and (min-width: 300px) {
+    button {
+        font-size: .625em;
+    }
+}
+
+@media all and (min-width: 400px) {
+    button {
+        font-size: .675em;
+    }
+}
+
+@media all and (min-width: 600px) {
+    button {
+        font-size: .75em;
+    }
+}
+
+@media all and (min-width: 700px) {
+    button {
+        font-size: .875em;
+    }
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/*Highlights button.*/
+.highlight {
+    background: #e3f2fd; /*blue 50*/
+}
