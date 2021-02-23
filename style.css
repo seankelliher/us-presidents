@@ -173,7 +173,7 @@ button:hover {
     cursor: pointer;
 }
 
-/*Button for "birthplace." When page loads, button is highlighted.*/
-#btn-birthplace {
+/*Highlights button.*/
+.highlight {
     background: #e3f2fd; /*blue 50*/
 }
