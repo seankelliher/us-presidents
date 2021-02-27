@@ -3,58 +3,121 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start; /*main axis*/
+    align-items: flex-start; /*cross axis*/
 }
 
 header {
     width: 90%;
-    margin: 2em 5% 1em 5%;
-    padding: 0;
+    margin: 0;
+    padding: 0 5%;
 }
 
 nav {
-    width: 90%;
-    margin: 1em 5%;
-    padding: 0;
+    margin: 0;
+    padding: 0 5% 1em 5%;
+    flex: initial; /*flex: 0 1 auto*/
     display: flex;
-    justify-content: start;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-between; /*main axis*/
+    align-items: flex-start; /*cross axis*/
 }
 
-main {
-    width: 90%; /*1080px out of 1200px*/
-    margin: 1.5em 5%;
-    padding: 0;
+button {
+    margin: .25em;
+    padding: 0 .5em;
+    flex: initial; /*flex: 0 1 auto*/
+    font-family: 'Merriweather', serif;
+    line-height: 2;
+    font-weight: 400;
+    border: none;
+    border-radius: 4px;
+    background: #F2F4F8; /*cool gray 10*/
 }
 
 @media all and (min-width: 300px) {
-    main {
-        column-count: 1;
-        column-width: auto;
-    }  
+    nav {
+        width: 90%;
+    }
+
+    button {
+        width: 30%;
+        font-size: .625em; /*10*/
+    }
 }
 
-@media all and (min-width: 800px) {
-    main {
-        column-count: 2;
-        height: 1794px;
-        column-fill: auto;
-    }  
+@media all and (min-width: 400px) {
+    nav {
+        width: 90%;
+    }
+
+    button {
+        width: 25%;
+        font-size: .75em; /*12*/
+    }
+}
+
+@media all and (min-width: 600px) {
+    nav {
+        width: 90%;
+    }
+
+    button {
+        width: 25%;
+        font-size: .875em; /*14*/
+    }
+}
+
+@media all and (min-width: 900px) {
+    nav {
+        width: 90%;
+    }
+
+    button {
+        width: 12%;
+        font-size: .875em; /*14*/
+    }
 }
 
 @media all and (min-width: 1200px) {
-    main {
-        column-count: 3;
-        height: 1170px;
-        column-fill: balance;
-    }   
+    nav {
+        width: 90%;
+    }
+
+    button {
+        width: 10%;
+        font-size: .875em; /*14*/
+    }
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+main {
+    width: 90%;
+    margin: 0;
+    padding: 0 5%;
+    flex: initial; /*flex: 0 1 auto*/
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start; /*main axis*/
+    align-items: center; /*cross axis*/
+    height: 1400px;
 }
 
 section {
-    width: 90%;
-    margin: 0 0 .5em 0;
-    padding: .5em 5%;
-    border-bottom: 1px solid #f5f5f5; /*grey 100*/
-    float: left;
+    width: 40%;
+    margin: 2px 0;
+    padding: 0 2.5%;
+    background: #F2F4F8; /*cool gray 10*/
+    flex: initial; /*flex: 0 1 auto*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between; /*main axis*/
+    align-items: center; /*cross axis*/
 }
 
 /*Fonts*/
@@ -83,7 +146,9 @@ h1 {
 }
 
 p {
-    line-height: 1.8;
+    font-family: 'Merriweather', serif;
+    line-height: 1.5;
+    font-weight: 400;
 }
 
 @media all and (min-width: 300px) {
@@ -104,76 +169,11 @@ p {
     }
 }
 
-.president {
-    font-family: 'Merriweather', serif;
-    font-weight: 400;
-}
-
 .detail {
-    font-family: 'Francois One', sans-serif;
-    font-weight: 400;
-    padding: 0 .5em;
+    padding: .25em .5em;
 }
 
-@media all and (min-width: 300px) {
-
-    .detail {
-        display: inline-block;
-    }
-}
-
-@media all and (min-width: 400px) {
-
-    .president {
-        float: left;
-        display: inline-block;
-    }
-
-    .detail {
-        float: right;
-        display: inline-block;
-    }
-}
-
-button {
-    margin: 0 .25em 0 0;
-    padding: 0 .5em;
-    font-family: 'Merriweather', serif;
-    line-height: 2;
-    font-weight: 400;
-    border: none;
-    background: none;
-}
-
-@media all and (min-width: 300px) {
-    button {
-        font-size: .625em;
-    }
-}
-
-@media all and (min-width: 400px) {
-    button {
-        font-size: .675em;
-    }
-}
-
-@media all and (min-width: 600px) {
-    button {
-        font-size: .75em;
-    }
-}
-
-@media all and (min-width: 700px) {
-    button {
-        font-size: .875em;
-    }
-}
-
-button:hover {
-    cursor: pointer;
-}
-
-/*Highlights button.*/
+/*Highlights button*/
 .highlight {
-    background: #e3f2fd; /*blue 50*/
+    background: #82CFFF; /*cyan 30*/
 }
