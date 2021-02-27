@@ -17,14 +17,17 @@ document.addEventListener("DOMContentLoaded", function () {
     //Monitor for clicks.
     nav.addEventListener("click", function (event) {
 
-        //Get target, create arguments from it.
-        const etid = event.target.id;
-        const color = `${etid}Color`;
-        const text = `${etid}`;
+        if (event.target.tagName === "BUTTON") {
 
-        //Invoke next functions.
-        fillDetails(color, text);
-        clearButtons();
-        highlightButton(etid);
+            //Get target, create arguments from it.
+            const etid = event.target.id;
+            const color = `${etid}Color`;
+            const text = `${etid}`;
+
+            //Invoke next functions.
+            fillDetails(color, text);
+            clearButtons();
+            highlightButton(etid);
+        }
     });
 });
