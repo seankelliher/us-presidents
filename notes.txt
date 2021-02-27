@@ -1,0 +1,77 @@
+-----------------------------
+-----------------------------
+CATEGORIES
+-----------------------------
+-----------------------------
+
+BIRTHPLACE - 8 (7 used).
+New England - #DDE1E6 (Cool Gray 20).
+Mideast - #C1C7CD (Cool Gray 30).
+Great Lakes - #A2A9B0 (Cool Gray 40).
+Plains - #E5F6FF (Cyan 10).
+Southeast - #BAE6FF (Cyan 20).
+Southwest - #82CFFF (Cyan 30).
+Rocky Mountain - #33B1FF (Cyan 40). (no presidents yet).
+Far West - #1192E8 (Cyan 50).
+
+* These are Bureau of Economic Analysis regions:
+https://en.wikipedia.org/wiki/List_of_regions_of_the_United_States
+
+-----------------------------
+
+PARTY - 6
+Unaffiliated - #FFD6E8 (Magenta 20).
+Federalist - #DDE1E6 (Cool Gray 20).
+Whig - #C1C7CD (Cool Gray 30).
+Republican - #A2A9B0 (Cool Gray 40).
+Democratic Republican - #BAE6FF (Cyan 20).
+Democratic - #82CFFF (Cyan 30).
+
+-----------------------------
+
+AGE - 4
+40s - #E5F6FF (Cyan 10).
+50s - #BAE6FF (Cyan 20).
+60s - #82CFFF (Cyan 30).
+70s - #33B1FF (Cyan 40).
+
+-----------------------------
+
+MARITAL STATUS WHEN BEGINNING PRESIDENCY - 3
+Married - #BAE6FF (Cyan 20).
+Never Married - #FFD6E8 (Magenta 20).
+Widower - #DDE1E6 (Cool Gray 20).
+
+-----------------------------
+
+EXPERIENCE - 7
+Congress - #E5F6FF (Cyan 10). 
+Governor - #BAE6FF (Cyan 20).
+Cabinet - #82CFFF (Cyan 30).
+Executive Office - #33B1FF (Cyan 40).
+Diplomatic #E8DAFF (Purple 20).
+Military #DDE1E6 (Cool Gray 20).
+Private Industry - #FFD6E8 (Magenta 20).
+
+-----------------------------
+
+TERM - TIME IN OFFICE - 5
+Under One - #DDE1E6 (Cool Gray 20).
+One - #BAE6FF (Cyan 20).
+One to Two  - #82CFFF (Cyan 30).
+Two - #33B1FF (Cyan 40).
+More Than Two - #FFD6E8 (Magenta 20).
+Now in Office - #F2F4F8 (Cool Gray 10).
+
+-----------------------------
+
+DEPARTURE REASON - 6
+Died - #A2A9B0 (Cool Gray 40).
+Lost Election - #C1C7CD (Cool Gray 30).
+Not Nominated - #DDE1E6 (Cool Gray 20).
+Resigned - #FFD6E8 (Magenta 20).
+Retired - #BAE6FF (Cyan 20).
+Term Limited - #82CFFF (Cyan 30).
+Now in Office - #F2F4F8 (Cool Gray 10).
+
+-----------------------------
