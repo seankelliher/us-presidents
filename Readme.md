@@ -1,5 +1,5 @@
 [![MIT License on GitHub](https://img.shields.io/github/license/seankelliher/us-presidents-1.0?style=flat-square)](/LICENSE.txt)
-## US Presidents - 3.0
+## US Presidents - 1.0
 
 Interactive component about demographics of the 45 US Presidents.
 
@@ -26,6 +26,6 @@ While coding I also wanted to keep the code as concise as possible and balance c
 * Data about presidents from [US House of Representatives](https://history.house.gov/Institution/Presidents-Coinciding/Presidents-Coinciding/) and [Wikipedia](https://www.wikipedia.org).
 * Readme guidance from [Brenna Martenson](https://gist.github.com/martensonbj/6bf2ec2ed55f5be723415ea73c4557c4).
 * JavaScript guidance from [JSLint](http://jslint.com) and [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference).
-* Design guidance from Google's [Material Design](https://material.io/design) and [Adobe Color](https://color.adobe.com/trends).
+* Design guidance from Google's [Material Design](https://material.io/design) and [IBM Design Language](https://www.ibm.com/design/language/color/#gradients).
 * Fonts from [Google Fonts](https://fonts.google.com).
 * Shields from [Shields](https://shields.io).
