@@ -9,6 +9,8 @@ Interactive component about demographics of the 45 US Presidents.
 
 ![screen shot of project](/screenshots/us-presidents-1.0-screenshot2.jpg)
 
+![screen shot of project](/screenshots/us-presidents-1.0-screenshot3.jpg)
+
 ## Installation and Setup Instructions
 
 This is a static component. All you need is a web browser. However, component uses ES6 modules. Developing locally may require disabling your browser's local file restrictions.
