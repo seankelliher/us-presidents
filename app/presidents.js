@@ -12,7 +12,7 @@ const allPresidents = [
         marriageColor: "#BAE6FF", //married.
         marriage: "Married",
         experienceColor: "#DDE1E6", //military.
-        experience: "Commander, Continental Army",
+        experience: "Cmdr., Continental Army",
         termColor: "#33B1FF", //two.
         term: "8 years", //96 months
         departureColor: "#BAE6FF", //retired.
@@ -292,7 +292,7 @@ const allPresidents = [
         marriageColor: "#FFD6E8", //never-married.
         marriage: "Never Married",
         experienceColor: "#E8DAFF", //diplomatic.
-        experience: "Minister, Court of St James's",
+        experience: "Minister, UK",
         termColor: "#BAE6FF", //one.
         term: "4 years", //48 months
         departureColor: "#BAE6FF", //retired.
@@ -352,7 +352,7 @@ const allPresidents = [
         marriageColor: "#BAE6FF", //married.
         marriage: "Married",
         experienceColor: "#DDE1E6", //military.
-        experience: "Commanding General, US Army",
+        experience: "Cmdr. General, US Army",
         termColor: "#33B1FF", //two.
         term: "8 years", //96 months
         departureColor: "#BAE6FF", //retired.
@@ -672,7 +672,7 @@ const allPresidents = [
         marriageColor: "#BAE6FF", //married.
         marriage: "Married",
         experienceColor: "#DDE1E6", //military.
-        experience: "Supreme Allied Commander",
+        experience: "Supreme Allied Cmdr.",
         termColor: "#33B1FF", //two.
         term: "8 years", //96 months
         departureColor: "#82CFFF", //term-limited.
